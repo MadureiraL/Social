@@ -1,0 +1,11 @@
+body{
+    background-image: url(imagens/fundo-madeira.jpg);
+    background: black url(imagens/fundo-madeira.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+}
+.cell{
+    display: block;
+    text-align: center;
+    margin-top: 50px;    
+}
