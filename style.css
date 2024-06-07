@@ -27,7 +27,7 @@ section#cell{
 
     height: 627px;
     width: 311px;
-    background: url(imagens/frame-iphone.png) no-repeat ;   
+    background: url(imagens/frame-iphone.png) no-repeat;   
 }
 #tela{
     position: relative;
@@ -36,4 +36,20 @@ section#cell{
 
     height: 471px;
     width: 270px;
+}
+#media{
+    text-align: right;
+}
+#media img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+    box-sizing: border-box;
+}
+#media img:hover{
+  border: 2px solid rgba(255, 255, 255, 0.671);
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+  transition: transform .6s, border .5s;  
 }
