@@ -8,16 +8,33 @@
          *{
             margin: 0px;
             padding: 0px;
+         }
+     ::-webkit-scrollbar{
+           width: 0;
+           height: 0; 
         }
-        body{
-            width: 100vw;
-            height: 100vh;
-            background: black url(imagens/tela-github.jpg);
-            background-size: cover;
-            
-        }    
+       img{
+        width: 100vw;
+        }
+        a:hover{
+         background-color: rgb(143, 22, 22);    
+        transition: 1s;
+
+       }
+       a{
+        display: block;
+        background-color: darkred;
+        color: white;
+        padding: 20px;
+        margin-top: -5px; 
+        text-align: center;
+        font-weight: bolder;
+        text-decoration: none;
+       }  
     </style>
 </head>
-<body>    
+<body>
+    <img src="imagens/tela-github.jpg" alt="">
+    <a href="#">ACESSE</a>
 </body>
 </html>

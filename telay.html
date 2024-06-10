@@ -9,15 +9,32 @@
             margin: 0px;
             padding: 0px;
         }
-        body{
-            width: 100vw;
-            height: 100vh;
-            background: black url(imagens/tela-youtube.png);
-            background-size: cover;
-            
-        }    
+       ::-webkit-scrollbar{
+           width: 0;
+           height: 0; 
+        }
+       img{
+        width: 100vw;
+        }
+        a:hover{
+         background-color: rgb(143, 22, 22);    
+        transition: 1s;
+
+       }
+       a{
+        display: block;
+        background-color: darkred;
+        color: white;
+        padding: 20px;
+        margin-top: -5px; 
+        text-align: center;
+        font-weight: bolder;
+        text-decoration: none;
+       }
     </style>
 </head>
 <body>
+    <img src="imagens/tela-youtube.png" alt="">
+    <a href="#">ACESSE</a>
 </body>
 </html>
